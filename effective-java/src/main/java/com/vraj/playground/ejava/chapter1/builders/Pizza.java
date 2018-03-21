@@ -1,4 +1,4 @@
-package com.vraj.playground.ejava.chapter1.part2;
+package com.vraj.playground.ejava.chapter1.builders;
 
 import java.util.EnumSet;
 import java.util.Objects;
