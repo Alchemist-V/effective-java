@@ -40,4 +40,9 @@ public class Rajnikant implements Serializable {
 	// Now if we want RAJNI instance thats serializable we need think through
 	// it, as serializing and again deserializing can create new instance.
 
+	private Object readResolve() {
+		// Maintain one and only instance of thalaiva and let GC tackle with
+		// impersonators. :D
+		return RAJNI_INSTANCE;
+	}
 }
