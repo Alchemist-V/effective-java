@@ -1,4 +1,4 @@
-package com.vraj.playground.effective_java;
+package com.vraj.playground.ejava;
 
 /**
  * Hello world!
